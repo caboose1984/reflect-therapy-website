@@ -21,10 +21,11 @@ export default function ServicesPage() {
             <div className="bg-white/75 backdrop-blur-md rounded-3xl shadow-2xl p-8 lg:p-12 border border-purple-100/50 hover:shadow-purple-200/50 hover:border-purple-200/60 transition-all duration-500">
               <div className="flex flex-col lg:flex-row gap-12 items-start">
                 <div className="lg:w-1/2">
-                  <div className="relative w-full h-80 overflow-hidden rounded-2xl shadow-xl border-2 border-white/50 hover:scale-[1.02] transition-transform duration-300">
+                  <div className="relative w-full h-64 sm:h-72 lg:h-80 overflow-hidden rounded-2xl shadow-xl border-2 border-white/50 hover:scale-[1.02] transition-transform duration-300">
                     <img
-                      src="https://images.squarespace-cdn.com/content/v1/61d762a102f1d858b22d0d22/1641516392684-B2ID9KDJUB88OQCD6281/unsplash-image-9KrLgnMc3OE.jpg"
+                      src="https://images.squarespace-cdn.com/content/v1/61d762a102f1d858b22d0d22/1641516392684-B2ID9KDJUB88OQCD6281/unsplash-image-9KrLgnMc3OE.jpg?format=1000w"
                       alt="Individual Therapy"
+                      loading="lazy"
                       className="absolute inset-0 w-full h-full object-cover hover:brightness-105 transition-all duration-300"
                     />
                     <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-purple-400/60 to-purple-600/60"></div>
@@ -62,10 +63,11 @@ export default function ServicesPage() {
             <div className="bg-white/65 backdrop-blur-md rounded-3xl shadow-2xl p-8 lg:p-12 border border-purple-100/50 hover:shadow-purple-200/50 hover:border-purple-200/60 transition-all duration-500">
               <div className="flex flex-col lg:flex-row-reverse gap-12 items-start">
                 <div className="lg:w-1/2">
-                  <div className="relative w-full h-80 overflow-hidden rounded-2xl shadow-xl border-2 border-white/50 hover:scale-[1.02] transition-transform duration-300">
+                  <div className="relative w-full h-64 sm:h-72 lg:h-80 overflow-hidden rounded-2xl shadow-xl border-2 border-white/50 hover:scale-[1.02] transition-transform duration-300">
                     <img
-                      src="https://images.squarespace-cdn.com/content/v1/61d762a102f1d858b22d0d22/1641516924787-QOWP6P82IDWVC9AU7LGB/unsplash-image-FO18LpXMlvk.jpg"
+                      src="https://images.squarespace-cdn.com/content/v1/61d762a102f1d858b22d0d22/1641516924787-QOWP6P82IDWVC9AU7LGB/unsplash-image-FO18LpXMlvk.jpg?format=1000w"
                       alt="Couples/Family Therapy"
+                      loading="lazy"
                       className="absolute inset-0 w-full h-full object-cover hover:brightness-105 transition-all duration-300"
                     />
                     <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-purple-400/60 to-purple-600/60"></div>
