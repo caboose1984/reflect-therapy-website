@@ -11,15 +11,15 @@ export function Hero() {
         <div className="absolute inset-0 bg-purple-900/30" />
 
         <div className="absolute inset-0 flex items-center justify-center">
-          <div className="text-center px-6 max-w-6xl">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light text-white mb-8 whitespace-nowrap">
+          <div className="text-center px-4 sm:px-6 max-w-6xl w-full">
+            <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-light text-white mb-4 sm:mb-8 leading-tight">
               Welcome to Reflect Therapy
             </h1>
-            <blockquote className="text-white">
-              <p className="text-base sm:text-lg lg:text-xl italic mb-2 whitespace-nowrap">
+            <blockquote className="text-white px-2 sm:px-0">
+              <p className="text-sm sm:text-base md:text-lg lg:text-xl italic mb-2 leading-relaxed">
                 "Trauma is not what happens to you but what happens inside you."
               </p>
-              <footer className="text-sm sm:text-base">— Gabor Maté</footer>
+              <footer className="text-xs sm:text-sm md:text-base">— Gabor Maté</footer>
             </blockquote>
           </div>
         </div>
