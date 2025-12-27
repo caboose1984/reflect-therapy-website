@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "WebFetch(domain:www.reflecttherapy.ca)",
+      "Bash(curl:*)",
+      "Bash(node --version:*)",
+      "Bash(python3:*)",
+      "Bash(npx --yes http-server -p 8000)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(pnpm install:*)",
+      "Bash(npm install)",
+      "Bash(npm run dev:*)"
+    ]
+  }
+}
