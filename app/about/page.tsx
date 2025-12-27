@@ -36,8 +36,8 @@ export default function AboutPage() {
                     src="https://images.squarespace-cdn.com/content/v1/61d762a102f1d858b22d0d22/39f58ba3-d2fe-4f64-bada-e10b9da98075/IMG_0677.jpg?format=1000w"
                     alt="Kendra"
                     loading="lazy"
-                    className="absolute inset-0 w-full h-full object-cover object-center hover:brightness-105 transition-all duration-300"
-                    style={{ objectPosition: '40% center' }}
+                    className="absolute inset-0 w-full h-full object-cover hover:brightness-105 transition-all duration-300"
+                    style={{ objectPosition: '65% center' }}
                   />
                   <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-purple-400/60 to-purple-600/60"></div>
                 </div>
@@ -58,6 +58,7 @@ export default function AboutPage() {
                     alt="Education"
                     loading="lazy"
                     className="absolute inset-0 w-full h-full object-cover hover:brightness-105 transition-all duration-300"
+                    style={{ objectPosition: 'center 30%' }}
                   />
                   <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-purple-400/60 to-purple-600/60"></div>
                 </div>
