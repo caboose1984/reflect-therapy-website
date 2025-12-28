@@ -28,7 +28,7 @@ export function Hero() {
       <div className="mx-auto max-w-7xl px-6 py-16 sm:py-20 lg:py-24">
         <div className="mx-auto max-w-2xl text-center">
           <div className="space-y-1 text-base sm:text-lg text-muted-foreground">
-            <p className="font-medium">Dr. Kendra Gottschall</p>
+            <p className="font-semibold text-xl sm:text-2xl lg:text-3xl">Dr. Kendra Gottschall</p>
             <p>Reflect Therapy</p>
             <p>27 Beech Hill Rd, Antigonish, NS</p>
             <div className="py-2">
